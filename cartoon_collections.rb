@@ -20,18 +20,25 @@ end
 
 summon_captain_planet(planeteer_calls)
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array) 
+  i = 0 
+  if  array.any? {|i| i.length > 4}
+    return true
+  else 
+    return false
+  i = i + 1
+  end 
 end
 
-#cheese_types = ["cheddar", "gouda", "camembert"]
-#snacks = ["crackers", "gouda", "thyme"]
-def find_the_cheese(array)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks = ["crackers", "gouda", "thyme"]
-  array.find do |type|
-    cheese_types.include?(type)
-  end
-end
+long_planeteer_calls(call_screams)
 
-find_the_cheese(snacks)
+
+#def find_the_cheese(array)
+#  cheese_types = ["cheddar", "gouda", "camembert"]
+#  snacks = ["crackers", "gouda", "thyme"]
+#  array.find do |type|
+#    cheese_types.include?(type)
+#  end
+#end
+
+#find_the_cheese(snacks)
