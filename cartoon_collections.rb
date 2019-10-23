@@ -8,7 +8,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  #planeteer_calls = ["earth","wind","fire","water","heart"]
+  planeteer_calls = ["earth","wind","fire","water","heart"]
   nu_array = []
   i = 0 
   while i < array.length
